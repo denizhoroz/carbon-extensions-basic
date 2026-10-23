@@ -1,0 +1,247 @@
+{
+  "schema": 1,
+  "packages": [
+    {
+      "id": "carbon.bash",
+      "name": "Shell",
+      "description": "Bash and other shell script colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "sh",
+        "bash",
+        "zsh"
+      ],
+      "file_names": [
+        ".bashrc",
+        ".bash_profile",
+        ".profile",
+        ".zshrc"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/bash",
+          "hash": "sha256:ce0b84ecf084615d0228ca9fed13cd89a4b47105e1b73fbeda8feaba033636b9"
+        }
+      ]
+    },
+    {
+      "id": "carbon.css",
+      "name": "CSS",
+      "description": "CSS colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "css",
+        "scss"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/css",
+          "hash": "sha256:a5e09fc2255c16aa07582baed1e2b20210b72a381aa6cb14a7f121170b4180f4"
+        }
+      ]
+    },
+    {
+      "id": "carbon.html",
+      "name": "HTML",
+      "description": "HTML colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "html",
+        "htm"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/html",
+          "hash": "sha256:fc4fda36bd23c3b0db2b34e04491e498856b67a2300224aede6f746eabba7867"
+        }
+      ]
+    },
+    {
+      "id": "carbon.javascript",
+      "name": "JavaScript",
+      "description": "JavaScript and JSX colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "js",
+        "mjs",
+        "cjs",
+        "jsx"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/javascript",
+          "hash": "sha256:ec05f7c2448a01f792fb664d676ded261382356e474ec60992836e57ae099c10"
+        }
+      ]
+    },
+    {
+      "id": "carbon.markdown",
+      "name": "Markdown",
+      "description": "Markdown colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "md",
+        "markdown",
+        "mdx"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/markdown",
+          "hash": "sha256:ffa417009335344c09d0e259acf558e3600e1dc61f983734340d8c25090ed182"
+        }
+      ]
+    },
+    {
+      "id": "carbon.python",
+      "name": "Python",
+      "description": "Python colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "py",
+        "pyi"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/python",
+          "hash": "sha256:eb5b24f2b2e94f864dd7717d2625e6bfcd66be090334a9388c87499dbf792586"
+        }
+      ]
+    },
+    {
+      "id": "carbon.rust",
+      "name": "Rust",
+      "description": "Rust colours and the rust-analyzer language server.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "rs"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/rust",
+          "hash": "sha256:c243b2ce96ff4edd736a4ceffe8bcb5b2c09233029fb2a4aaf99a64bc2d858e9"
+        }
+      ]
+    },
+    {
+      "id": "carbon.toml",
+      "name": "TOML",
+      "description": "TOML colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "toml"
+      ],
+      "file_names": [
+        "Cargo.lock",
+        "uv.lock",
+        "poetry.lock"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/toml",
+          "hash": "sha256:db3f7ad971453aac954c243dea09ceb303e1fd417983f4fe27539401c18d4060"
+        }
+      ]
+    },
+    {
+      "id": "carbon.typescript",
+      "name": "TypeScript",
+      "description": "TypeScript and TSX colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "ts",
+        "mts",
+        "cts",
+        "tsx"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/typescript",
+          "hash": "sha256:d162846822f8ce0f1018037751fb59aab20e7372b1bb93393bdb323d76c5baf7"
+        }
+      ]
+    },
+    {
+      "id": "carbon.yaml",
+      "name": "YAML",
+      "description": "YAML colours.",
+      "categories": [
+        "language"
+      ],
+      "suffixes": [
+        "yaml",
+        "yml"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "languages/yaml",
+          "hash": "sha256:015c515f292bc0954673bb12d59b13bbd946db689ea8f619c813e4074a5aab9b"
+        }
+      ]
+    },
+    {
+      "id": "carbon.gruvbox",
+      "name": "Gruvbox",
+      "description": "Gruvbox colour themes (dark and light, hard, medium and soft).",
+      "categories": [
+        "theme"
+      ],
+      "versions": [
+        {
+          "version": "0.1.0",
+          "git": "https://github.com/denizhoroz/carbon-extensions-basic",
+          "commit": "107e1d225420d5e3628082de35e1bbc91f44e20f",
+          "path": "themes/gruvbox",
+          "hash": "sha256:bec2481ad13fbc61655e817941316abdc9eb4b5711bd60d5f1c4f9f8dc85a4ee"
+        }
+      ]
+    }
+  ]
+}
