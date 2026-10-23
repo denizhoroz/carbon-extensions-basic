@@ -16,7 +16,7 @@ The official extensions of [Carbon](https://github.com/denizhoroz/carbon): langu
 | `languages/bash` | `carbon.bash` | Bash grammar |
 | `themes/gruvbox` | `carbon.gruvbox` | Gruvbox themes (dark and light, hard / medium / soft) |
 
-Packages are grouped by type: `languages/` (grammars, language servers), `themes/`; later `tools/` and others. Each package folder holds `extension.toml` (schema 1) at its root plus its files (`grammars/*.wasm` and `.scm` queries, `themes/*.json`). The catalog names each package by its folder (`path = "languages/rust"`), so there is no index file here.
+Packages are grouped by type: `languages/` (grammars, language servers), `themes/`; later `tools/` and others. Each package folder holds `extension.toml` (schema 1) at its root plus its files (`grammars/*.wasm` and `.scm` queries, `themes/*.json`), and optionally `icon = "icon.png"` (png, svg, jpg or webp, square, at most 256 KB; Carbon shows a placeholder without one). The catalog names each package by its folder (`path = "languages/rust"`), so there is no index file here.
 
 ## Grammars
 
@@ -28,6 +28,16 @@ python fetch_grammars.py --check  # verify only (exit 1 on a mismatch)
 ```
 
 Licenses of the third-party files: `LICENSES.md`.
+
+## Publishing (the catalog)
+
+This repo is also Carbon's default catalog: `catalog.json` at the root lists every package by folder, commit and content hash.
+
+1. Commit and push the package changes (bump `version` in `extension.toml` for new files).
+2. `python catalog.py` (lists the new versions at `HEAD`, keeps older ones).
+3. Commit and push `catalog.json`.
+
+Carbon fetches it when Extensions opens. Later: sign it (`minisign -Sm catalog.json`, commit `catalog.json.minisig`) and build the public key into Carbon.
 
 ## Developing
 
